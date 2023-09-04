@@ -12,11 +12,20 @@
 	"activationEvents": [],
 	"main": "./out/extension.js",
 	"contributes": {
-		"views": {
-			"explorer": [
+		"viewsContainers": {
+			"activitybar": [
 				{
 					"id": "clickus",
-					"name": "Click up - Tasks"
+					"title": "Click us",
+					"icon": "resources/icons/clickup_activity.svg"
+				}
+			]
+		},
+		"views": {
+			"clickus": [
+				{
+					"id": "myTasks",
+					"name": "My Tasks"
 				}
 			]
 		},
