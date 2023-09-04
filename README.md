@@ -1,20 +1,40 @@
-# clickup-vscode README
 
-This is the README for your extension "clickup-vscode". After writing up a brief description, we recommend including the following sections.
+# clickus README
+
+Un-official clickup extension. This will give you a basic preview of your assigned tasks.
+
+I made this to speed up my workflow and hopefully you might be able to benefit from it too. :]
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Current iteration lack features.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+TODO: Write more
 
 ## Requirements
 
+This extention makes out of the clickup api meaning that it requires authentication. For authentication we are just using our own personal token.
+
 If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+
+### Generate your personal API token
+
+Any ClickUp user, including Guests, can generate a personal token.
+
+1. Log into ClickUp.
+2. Click on your avatar in the lower-left corner and select Apps.
+3. Under API Token, click Generate.
+4. You can copy and paste your personal API token wherever you need it!
+
+### Regenerate a personal API token
+
+You can regenerate your personal API token at any time. Your existing token will be revoked and will no longer have access to your ClickUp account.
+
+1. Log into ClickUp.
+2. Click on your avatar in the lower-left corner and select Apps.
+3. Under API Token, click Regenerate.
+4. Your new API token is available immediately!
+
 
 ## Extension Settings
 
@@ -48,11 +68,6 @@ Fixed issue #.
 Added features X, Y, and Z.
 
 -----------------------------------------------------------------------------------------------------------
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
 
 ## Working with Markdown
 
@@ -68,3 +83,4 @@ Ensure that you've read through the extensions guidelines and follow the best pr
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
